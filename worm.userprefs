@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/TurretCollision.js">
+    <Files>
+      <File FileName="Assets/_Scripts/MoveAround.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/TextControl.js" Line="26" Column="27" />
+      <File FileName="Assets/_Scripts/TurretCollision.js" Line="27" Column="31" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/danielkreling/Documents/FATEC/5th Term/Realidade Virtual/Unity Projects/worm/Assets/Scripts/TextControl.js" line="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
