@@ -42,6 +42,7 @@ function LateUpdate() //is being checked after the Update function
 		else //if we're still spinning around...
 		{
 			//we're hit! Spin our character around
+			
 			transform.Rotate(0,tumbleSpeed * Time.deltaTime,0, Space.World);
 			tumbleSpeed = tumbleSpeed - decreaseTime; //repetition -with rendering - of this script makes character stop rotating
 			decreaseTime += decayTime;
