@@ -17,12 +17,12 @@ function OnTriggerEnter( hit : Collider)
 	if( turretNumbers == 0 )
 	{
 		// If I killed all the turrets in the level, go to the next level
-		//Application.LoadLevel(2);
+		Application.LoadLevel(3);
 	
 	}
 } 
 	
 function OnGUI(){
 	//GUI.Label(Rect(10,10,200,50),"Score: " + playerScore);
-	GUI.Label(Rect(80,85,200,50),"= " + turretNumbers, style);
+	GUI.Label(Rect(90,85,20,50),"= " + turretNumbers);
 }	
