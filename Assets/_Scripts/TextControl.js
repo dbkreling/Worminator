@@ -23,7 +23,9 @@ function OnMouseUp()
 	else
 	{
 		//load level
+		TurretCollision.turretNumbers = 9;
 		HealthControl.LIVES = 3;
+		HealthControl.HITS = 0;
 		Application.LoadLevel(1);
 	}
 }

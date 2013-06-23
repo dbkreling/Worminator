@@ -1,13 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/MoveAround.js">
-    <Files>
-      <File FileName="Assets/_Scripts/HealthControl.js" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/TurretCollision.js" Line="12" Column="126" />
-      <File FileName="Assets/_Scripts/KillMeOverTime.js" Line="3" Column="20" />
-      <File FileName="Assets/_Scripts/MoveAround.js" Line="16" Column="27" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
