@@ -61,6 +61,7 @@
      <Compile Include="Assets\_Scripts\LoseScript.js" />
      <Compile Include="Assets\_Scripts\MoveAround.js" />
      <Compile Include="Assets\_Scripts\TextControl.js" />
+     <Compile Include="Assets\_Scripts\TimerControl.js" />
      <Compile Include="Assets\_Scripts\TurretCollision.js" />
      <Compile Include="Assets\_Scripts\TurretControl.js" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />

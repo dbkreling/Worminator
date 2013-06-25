@@ -2,6 +2,7 @@
 var explosion : Transform;
 static var turretNumbers : int = 9;
 var style : GUIStyle;
+//var cannon : GUIText;
 
 
 function OnTriggerEnter( hit : Collider)
@@ -25,4 +26,5 @@ function OnTriggerEnter( hit : Collider)
 function OnGUI(){
 	//GUI.Label(Rect(10,10,200,50),"Score: " + playerScore);
 	GUI.Label(Rect(90,85,20,50),"= " + turretNumbers);
+	//cannon.text = "= " + turretNumbers;
 }	
