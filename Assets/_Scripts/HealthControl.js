@@ -31,7 +31,7 @@ function Update ()
 		
 		case 0:
 			//add game over script
-			Application.LoadLevel(2);
+			Application.LoadLevel(3);
 		break;
 	}
 	

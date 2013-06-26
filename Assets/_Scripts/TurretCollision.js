@@ -17,7 +17,7 @@ function OnTriggerEnter( hit : Collider)
 	if( turretNumbers == 0 )
 	{
 		// If I killed all the turrets in the level, go to the next level
-		Application.LoadLevel(3);
+		Application.LoadLevel(4);
 	
 	}
 } 

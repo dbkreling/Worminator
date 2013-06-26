@@ -1,4 +1,10 @@
 var isQuitButton = false;
+var isMenuButton = false;
+var isEasyButton = false;
+var isNormalButton = false;
+var isHardButton = false;
+static var MEMTIME: float;
+//var isPlayButton = false;
 
 function OnMouseEnter()
 {
@@ -14,20 +20,38 @@ function OnMouseExit()
 
 function OnMouseUp()
 {
-	// Are we dealing with a quit button?
-	if( isQuitButton )
+	if( isMenuButton )
+	{
+		//carega menu
+		Application.LoadLevel(1);
+	}else if( isQuitButton )
 	{
 		//quit the game
 		Application.Quit();
-	}
-	else
+	}else
 	{
 		//load level
 		TurretCollision.turretNumbers = 9;
 		HealthControl.LIVES = 3;
 		HealthControl.HITS = 0;
-		Application.LoadLevel(1);
+		if(isEasyButton)
+		{
+			TimerControl.TEMPO = 180;	
+			MEMTIME = 180;
+		}else if(isNormalButton)
+		{
+			TimerControl.TEMPO = 120;	
+			MEMTIME = 120;
+		}else if(isHardButton)
+		{
+			TimerControl.TEMPO = 45;	
+			MEMTIME = 45;
+		}else{
+			TimerControl.TEMPO = MEMTIME;
+		}
+		
+		Application.LoadLevel(2);
 	}
+	
+	
 }
-
-// Este comentario eh para testar o gitHub
